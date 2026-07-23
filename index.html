@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title> 
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">Welcome to My Mini World</span>
+                </div>
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="hover:text-blue-600 transition">About</a>
+                    <a href="#education" class="hover:text-blue-600 transition">Education</a>
+                    <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                    <a href="#more-info" class="hover:text-blue-600 transition">More Info</a>
+                    <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Home Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-r from-blue-50 to-indigo-50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900">
+                    MD.Atikuzzaman
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-600 font-medium">
+                    B.Sc. in Computer Science & Engineering (CSE)
+                </p>
+
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Hire Me / Contact Me</a>
+                    <a href="MD.Atikuzzaman CV.pdf" download class="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                        <i class="fa-solid fa-download mr-2"></i>Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                    <!-- Replace with your image link -->
+                    <img src="img1.jpg" alt="Profile Picture" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-blue-600 pb-2 inline-block mx-auto">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-gray-900">Personal Introduction & Objective</h3>
+                    <p class="text-gray-600 leading-relaxed">Hello! I am Atikuzzaman Abid, a Computer Science and Engineering student at the American International University-Bangladesh (AIUB). I am passionate about software development, web technologies, and problem-solving. I enjoy learning new technologies, building innovative projects, and continuously improving my technical skills. My goal is to develop solutions that are both efficient and user-friendly while growing as a professional software engineer.</p>
+                    <p class="text-gray-600 leading-relaxed"><strong>Career Objective:</strong> To build a successful career as a Software Engineer by applying my technical knowledge, creativity, and problem-solving skills. I aim to contribute to innovative projects, continuously expand my expertise, and create technology-driven solutions that make a positive impact.</p>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-gray-900">Interests & Personal Values</h3>
+                    <p class="text-gray-600 leading-relaxed"><strong>Interests:</strong> Web Development, Software Engineering, Problem Solving, Artificial Intelligence, Database Management, Open Source Development, UI/UX Design, Learning New Technologies, Football, Reading Technology Articles.</p>
+                    <p class="text-gray-600 leading-relaxed"><strong>Personal Values:</strong> Integrity, Continuous Learning, Teamwork, Responsibility, Creativity, Professionalism, Adaptability, Innovation, Respect, Excellence, Time Management, Dedication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Education Section -->
+    <section id="education" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-blue-600 mb-12">
+            Education
+        </h2>
+
+        <div class="space-y-8">
+
+            <!-- Bachelor's Degree -->
+            <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800">
+                    Bachelor of Science in Computer Science & Engineering (BSc in CSE)
+                </h3>
+
+                <p class="text-blue-600 font-medium">
+                    American International University-Bangladesh (AIUB)
+                </p>
+
+                <div class="mt-4 grid md:grid-cols-2 gap-4">
+                    <p><strong>Duration:</strong> 2023 – Present</p>
+                    <p><strong>Current Semester:</strong> 9th Semester</p>
+                    <p><strong>CGPA:</strong> 3.18</p>
+                    <p><strong>Status:</strong> Undergraduate Student</p>
+                </div>
+
+                <div class="mt-4">
+                    <h4 class="font-semibold text-lg mb-2">Relevant Coursework</h4>
+
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Database Management Systems</li>
+                        <li>Computer Networks</li>
+                        <li>Operating Systems</li>
+                        <li>Software Engineering</li>
+                        <li>Web Technologies</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- HSC -->
+            <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800">
+                    Higher Secondary Certificate (HSC)
+                </h3>
+
+                <p class="text-blue-600 font-medium">
+                    Agricultural University College
+
+                </p>
+
+                <div class="mt-4 grid md:grid-cols-2 gap-4">
+                    <p><strong>Group:</strong> Science</p>
+                    <p><strong>Passing Year:</strong> 2022</p>
+                    <p><strong>Board:</strong> Mymensingh </p>
+                    <p><strong>GPA:</strong> 5.00</p>
+                </div>
+            </div>
+
+            <!-- SSC -->
+            <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800">
+                    Secondary School Certificate (SSC)
+                </h3>
+
+                <p class="text-blue-600 font-medium">
+                    Sristy Central School & College, Jamalpur
+
+                </p>
+
+                <div class="mt-4 grid md:grid-cols-2 gap-4">
+                    <p><strong>Group:</strong> Science</p>
+                    <p><strong>Passing Year:</strong> 2020</p>
+                    <p><strong>Board:</strong> Mymensingh</p>
+                    <p><strong>GPA:</strong> 5.00</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- 4. Technical Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-blue-600 pb-2 inline-block mx-auto">Technical Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Langs -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-3 text-blue-600"><i class="fa-solid fa-code mr-2"></i>Programming</h3>
+                    <ul class="space-y-2">
+                        <li>C</li><li>C++</li><li>Java</li><li>Python</li>
+                    </ul>
+                </div>
+                <!-- Web Dev -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-3 text-blue-600"><i class="fa-solid fa-laptop-code mr-2"></i>Web Dev</h3>
+                    <ul class="space-y-2">
+                        <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+                    </ul>
+                </div>
+                <!-- Database -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-3 text-blue-600"><i class="fa-solid fa-database mr-2"></i>Database</h3>
+                    <ul class="space-y-2">
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-3 text-blue-600"><i class="fa-solid fa-screwdriver-wrench mr-2"></i>Tools</h3>
+                    <ul class="space-y-2">
+                        <li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Combined More Info Section (6, 7, 8, 12, 13) -->
+    <section id="more-info" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  
+                <!-- 12. Languages -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <h3 class="text-xl font-bold mb-4 text-gray-900 border-b pb-2"><i class="fa-solid fa-language text-blue-600 mr-2"></i>Languages</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><strong>Bengali:</strong> Native</li>
+                        <li><strong>English:</strong> Professional Working Proficiency</li>
+                    </ul>
+                </div>
+
+                <!-- 13. Hobbies & Interests -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm md:col-span-2 lg:col-span-2">
+                    <h3 class="text-xl font-bold mb-4 text-gray-900 border-b pb-2"><i class="fa-solid fa-heart text-blue-600 mr-2"></i>Hobbies & Interests</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-white px-3 py-1 rounded shadow-sm text-sm">Programming</span>
+                        <span class="bg-white px-3 py-1 rounded shadow-sm text-sm">Web Development</span>
+                        <span class="bg-white px-3 py-1 rounded shadow-sm text-sm">Football</span>
+                        <span class="bg-white px-3 py-1 rounded shadow-sm text-sm">Reading Technology Articles</span>
+                        <span class="bg-white px-3 py-1 rounded shadow-sm text-sm">Learning New Technologies</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 9 & 10. Video CV & Resume Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
+            
+            <!-- 9. Video CV -->
+            <div class="space-y-4 bg-white p-6 rounded-xl shadow-sm border">
+                <h3 class="text-2xl font-bold text-gray-900"><i class="fa-solid fa-video text-blue-600 mr-2"></i>Video CV</h3>
+                
+                <!-- Video Thumbnail Container -->
+                <div class="relative aspect-video bg-black rounded-lg overflow-hidden cursor-pointer group" onclick="openVideoLightbox('vdo.mp4')">
+                    <video src="vdo.mp4" preload="auto" muted class="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition"></video>
+                    
+                    <!-- Play Button Icon Overlay -->
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play text-xl ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            <!-- 10. Resume -->
+            <div class="space-y-4 bg-white p-6 rounded-xl shadow-sm border flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4"><i class="fa-solid fa-file-pdf text-blue-600 mr-2"></i>Resume</h3>
+                    <p class="text-gray-600">You can view or download my formal resume to check my technical background, projects, and skills in detail.</p>
+                </div>
+                <div class="space-y-3 pt-4">
+                    <a href="MD.Atikuzzaman CV.pdf" download class="block text-center border-2 border-blue-600 text-blue-600 px-4 py-2 rounded font-medium hover:bg-blue-50 transition">
+                        <i class="fa-solid fa-download mr-2"></i>Download PDF Resume
+                    </a>
+                    <a href="MD.Atikuzzaman CV.pdf" target="_blank" class="block text-center bg-gray-800 text-white px-4 py-2 rounded font-medium hover:bg-gray-900 transition">
+                        <i class="fa-solid fa-eye mr-2"></i>View Resume Online
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Video Lightbox Modal Overlay -->
+    <div id="video-lightbox" class="fixed inset-0 bg-black bg-opacity-95 hidden z-[120] flex items-center justify-center p-4 backdrop-blur-sm" onclick="closeVideoLightbox()">
+        <!-- Close Button -->
+        <button class="absolute top-5 right-5 text-white text-4xl hover:text-gray-300 z-[130]" onclick="closeVideoLightbox()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <!-- Large Video Player -->
+        <video id="lightbox-video" controls preload="auto" class="max-w-full max-h-[85vh] rounded-lg shadow-2xl transition-transform duration-300 scale-95" onclick="event.stopPropagation();">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- JavaScript for Video Lightbox -->
+    <script>
+        function openVideoLightbox(videoUrl) {
+            const videoLightbox = document.getElementById('video-lightbox');
+            const lightboxVideo = document.getElementById('lightbox-video');
+            
+            lightboxVideo.src = videoUrl;
+            videoLightbox.classList.remove('hidden');
+            
+            setTimeout(() => {
+                lightboxVideo.classList.remove('scale-95');
+                lightboxVideo.classList.add('scale-100');
+                lightboxVideo.load();
+                
+                var playPromise = lightboxVideo.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.log("Autoplay blocked, user needs to click play button manually.", error);
+                    });
+                }
+            }, 50);
+            
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeVideoLightbox() {
+            const videoLightbox = document.getElementById('video-lightbox');
+            const lightboxVideo = document.getElementById('lightbox-video');
+            
+            lightboxVideo.classList.add('scale-95');
+            lightboxVideo.classList.remove('scale-100');
+            
+            lightboxVideo.pause();
+            lightboxVideo.src = "";
+
+            setTimeout(() => {
+                videoLightbox.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            }, 300);
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeVideoLightbox();
+            }
+        });
+    </script>
+
+    <!-- 11. Gallery Section (Clean Images Only + Lightbox) -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-blue-600 pb-2 inline-block mx-auto">Gallery</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                
+                <!-- Photo 1 -->
+                <div class="relative overflow-hidden rounded-lg bg-gray-100 aspect-square cursor-pointer" onclick="openLightbox(this)">
+                    <img src="img2.jpeg" alt="Gallery Image 1" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="relative overflow-hidden rounded-lg bg-gray-100 aspect-square cursor-pointer" onclick="openLightbox(this)">
+                    <img src="img3.jpeg" alt="Gallery Image 2" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="relative overflow-hidden rounded-lg bg-gray-100 aspect-square cursor-pointer" onclick="openLightbox(this)">
+                    <img src="img4.jpg" alt="Gallery Image 3" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal Overlay -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 hidden z-[100] flex items-center justify-center p-4 backdrop-blur-sm" onclick="closeLightbox(event)">
+        <!-- Close Button -->
+        <button class="absolute top-5 right-5 text-white text-4xl hover:text-gray-300 z-[110]" onclick="closeLightbox(event)">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <!-- Large Preview Image -->
+        <img id="lightbox-img" src="" alt="Enlarged view" class="max-w-full max-h-[90vh] rounded-lg shadow-2xl transition-transform duration-300 scale-95" onclick="event.stopPropagation();">
+    </div>
+
+    <!-- JavaScript for Lightbox functionality -->
+    <script>
+        function openLightbox(element) {
+            const imgSrc = element.querySelector('img').src;
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+
+            lightboxImg.src = imgSrc;
+            lightbox.classList.remove('hidden');
+
+            setTimeout(() => {
+                lightboxImg.classList.remove('scale-95');
+                lightboxImg.classList.add('scale-100');
+            }, 10);
+            
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            
+            lightboxImg.classList.add('scale-95');
+            lightboxImg.classList.remove('scale-100');
+
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            }, 300);
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+    </script>
+
+    <!-- 14. Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-blue-600 pb-2 inline-block mx-auto">Contact Me</h2>
+            <div class="bg-white p-8 rounded-xl shadow-md grid md:grid-cols-2 gap-8 border">
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold text-gray-900">Get In Touch</h3>
+                    <div class="flex items-center space-x-3 text-gray-600">
+                        <i class="fa-solid fa-envelope text-blue-600 text-lg w-6"></i>
+                        <span>atikuzzamanabid512@gmail.com</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-gray-600">
+                        <i class="fa-solid fa-phone text-blue-600 text-lg w-6"></i>
+                        <span>01316254400</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-gray-600">
+                        <i class="fa-solid fa-location-dot text-blue-600 text-lg w-6"></i>
+                        <span> Khilkhet, Dhaka, Bangladesh</span>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-gray-900">Social Connections</h3>
+                    <div class="grid grid-cols-2 gap-3">
+                        <a href="https://github.com/atikuzzamanabid512" target="_blank" class="flex items-center space-x-2 p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition text-gray-700">
+                            <i class="fa-brands fa-github text-xl text-black"></i> <span>GitHub</span>
+                        </a>
+                        
+                        <a href="https://www.facebook.com/share/1CtMJNQav5/" target="_blank" class="flex items-center space-x-2 p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition text-gray-700">
+                            <i class="fa-brands fa-facebook text-xl text-blue-600"></i> <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 15. Footer Section -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8 text-center md:text-left items-center">
+            <div>
+                <p class="text-gray-400 text-sm">&copy; 2026 [Your Name]. All Rights Reserved.</p>
+            </div>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-gray-400">
+                <a href="#home" class="hover:text-white transition">Home</a>
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+                <a href="#contact" class="hover:text-white transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
