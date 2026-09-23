@@ -1,86 +1,278 @@
-# 🌐 Personal Portfolio Website
+# 🌐 MD. Atikuzzaman — Personal Portfolio
 
-Welcome to my personal portfolio website repository.
+Welcome to my personal portfolio website! 👋
 
-This portfolio website showcases my **education, technical skills, projects, interests, and contact information** in a clean and responsive interface.
+This repository contains my personal portfolio, where I showcase my **academic background, technical skills, interests, resume, and professional information**.
 
-## 👨‍💻 About the Project
+🔗 **Live Portfolio:**
+https://atikuzzamanabid512.github.io/portfolio/
 
-This is my personal developer portfolio, created to present my academic background, programming skills, projects, and development experience in one place.
+---
 
-The website is designed to provide a simple and professional way for recruiters, developers, and universities to learn more about me and my work.
+## 👨‍💻 About Me
 
-## ✨ Features
+Hello! I'm **Atikuzzaman Abid**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**.
 
-* 🏠 Modern Home section
-* 👨‍💻 About Me section
-* 🎓 Education section
-* 🛠️ Skills & Technologies section
-* 💻 Projects showcase
-* 📱 Responsive design
-* 📩 Contact section
-* 🔗 Social media and professional profile links
-* ⚡ Smooth navigation and interactive UI
+I am passionate about:
 
-## 🛠️ Technologies Used
+* 💻 Software Development
+* 🌐 Web Technologies
+* 🧠 Problem Solving
+* 🤖 Artificial Intelligence
+* 🗄️ Database Management
+* 🎨 UI/UX Design
+* 🔓 Open Source Development
+* 📚 Continuous Learning
+
+My career goal is to build a successful career as a **Software Engineer**, contribute to innovative projects, and develop efficient, user-friendly technology-driven solutions.
+
+---
+
+## 🎓 Education
+
+### Bachelor of Science in Computer Science & Engineering
+
+**American International University-Bangladesh (AIUB)**
+
+* 📅 Duration: 2023 – Present
+* 🎓 Current Semester: 9th Semester
+* 📊 CGPA: 3.18
+
+### Higher Secondary Certificate (HSC)
+
+**Agricultural University College**
+
+* 🧪 Group: Science
+* 📅 Passing Year: 2022
+* 🏫 Board: Mymensingh
+* 📊 GPA: 5.00
+
+### Secondary School Certificate (SSC)
+
+**Sristy Central School & College, Jamalpur**
+
+* 🧪 Group: Science
+* 📅 Passing Year: 2020
+* 🏫 Board: Mymensingh
+* 📊 GPA: 5.00
+
+---
+
+## 🛠️ Technical Skills
+
+### Programming Languages
+
+* C
+* C++
+* Java
+* Python
+
+### Web Development
 
 * HTML5
 * CSS3
 * JavaScript
+
+### Database
+
+* MySQL
+
+### Tools & Technologies
+
 * Git
 * GitHub
+* Visual Studio Code
+* Figma
+
+---
+
+## 📚 Relevant Coursework
+
+During my Computer Science and Engineering studies, I have worked with:
+
+* Data Structures
+* Algorithms
+* Object-Oriented Programming
+* Database Management Systems
+* Computer Networks
+* Operating Systems
+* Software Engineering
+* Web Technologies
+
+---
+
+## 🎯 Career Objective
+
+My objective is to become a professional **Software Engineer** by applying my technical knowledge, creativity, and problem-solving abilities.
+
+I aim to:
+
+* Build efficient and scalable software
+* Develop user-friendly applications
+* Work on innovative technology projects
+* Continuously improve my technical skills
+* Contribute to meaningful software solutions
+* Grow as a professional software engineer
+
+---
+
+## 🌱 Currently Learning
+
+I am continuously improving my knowledge in:
+
+* Software Development
+* Web Development
+* Database Systems
+* Programming & Problem Solving
+* Git & GitHub
+* UI/UX Design
+* Artificial Intelligence
+* Modern Development Technologies
+
+---
+
+## 💼 Portfolio Sections
+
+The website currently includes:
+
+* 🏠 Home
+* 👨‍💻 About Me
+* 🎓 Education
+* 🛠️ Technical Skills
+* 📚 Relevant Coursework
+* ❤️ Hobbies & Interests
+* 📄 Resume
+* 🎥 Video CV
+* 🖼️ Gallery
+* 📩 Contact Information
+* 🔗 Social Connections
+
+---
+
+## 🖥️ Technologies Used
+
+This portfolio website is built using:
+
+```text
+HTML5
+CSS3
+JavaScript
+```
+
+The project is hosted using **GitHub Pages**.
+
+---
 
 ## 📂 Project Structure
 
 ```text
-Personal-Portfolio/
+portfolio/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 │
-└── assets/
-    ├── images/
-    └── icons/
+├── images/
+│   └── ...
+│
+├── resume/
+│   └── ...
+│
+└── README.md
 ```
 
-## 🚀 Getting Started
-
-To run the portfolio locally:
-
-```bash
-git clone https://github.com/atikuzzamanabid512/portfolio.git
-cd portfolio
-```
-
-Then open `index.html` in your browser.
-
-## 🌍 Live Website
-
-🔗 **Portfolio:**
-Add your GitHub Pages / live portfolio link here.
-
-## 📸 Preview
-
-Add screenshots of your portfolio here if needed.
-
-## 🎯 Purpose
-
-The main purpose of this project is to:
-
-* Build and maintain my professional online presence
-* Showcase my academic and technical journey
-* Demonstrate my web development skills
-* Present my projects and achievements
-* Provide an easy way to connect with me
-
-## 👤 Author
-
-**Atikuzzaman Abid**
-
-Computer Science Student
-American International University-Bangladesh (AIUB)
+> The exact file structure may vary depending on the current version of the project.
 
 ---
 
-⭐ If you find this project useful, feel free to give it a star!
+## 🚀 Run Locally
+
+To run this portfolio on your local machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/atikuzzamanabid512/portfolio.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd portfolio
+```
+
+### 3. Open the website
+
+Open `index.html` in your preferred web browser.
+
+---
+
+## 🌍 Live Demo
+
+### 🔗 Personal Portfolio
+
+**https://atikuzzamanabid512.github.io/portfolio/**
+
+---
+
+## 📄 Resume
+
+My portfolio also includes my resume, where visitors can learn more about my:
+
+* Education
+* Technical skills
+* Projects
+* Experience
+* Professional background
+
+---
+
+## 📫 Contact
+
+Feel free to connect with me.
+
+📧 **Email:** [atikuzzamanabid512@gmail.com](mailto:atikuzzamanabid512@gmail.com)
+
+📍 **Location:** Dhaka, Bangladesh
+
+🐙 **GitHub:**
+https://github.com/atikuzzamanabid512
+
+🌐 **Portfolio:**
+https://atikuzzamanabid512.github.io/portfolio/
+
+---
+
+## ⚽ Hobbies & Interests
+
+Outside of academics and programming, I enjoy:
+
+* 💻 Programming
+* 🌐 Web Development
+* ⚽ Football
+* 📖 Reading Technology Articles
+* 📚 Learning New Technologies
+
+---
+
+## ⭐ About This Repository
+
+This project represents my ongoing journey as a Computer Science student and aspiring Software Engineer.
+
+The portfolio will continue to evolve as I gain new skills, complete new projects, and develop my professional experience.
+
+---
+
+## 👤 Author
+
+### MD. Atikuzzaman
+
+**B.Sc. in Computer Science & Engineering**
+American International University-Bangladesh (AIUB)
+
+> Building skills. Creating projects. Learning continuously. 🚀
+
+---
+
+⭐ **If you find this portfolio interesting, feel free to explore the repository and visit the live website!**
+
